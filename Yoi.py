@@ -7,8 +7,8 @@ import threading
 import os
 
 os.system("clear")
-print("DDoS Tools By Yoooo [Beta Version]")
-print("Bismilah Tembus")
+print("DDoS Tools By YOI [ZNX-TEAM]")
+print("ZNX-TEAM NIH")
 ip = str(input(" Ip: "))
 port = int(input(" Port: "))
 choice = str(input(" Gas?(y/n): "))
